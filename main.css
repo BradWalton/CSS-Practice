@@ -55,4 +55,20 @@ Content Styling
     padding: 3%;
     position: static;
     margin: 1%;
+    text-align: center;
+}
+
+.contentcontainer section section {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 250px;
+    background-color: goldenrod;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    position: relative;
 }
