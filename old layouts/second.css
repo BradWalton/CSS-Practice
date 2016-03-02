@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 20%;
+    height: 100%;
+    background-color: #999;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+header h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    font-family: Helvetica, sans-serif;
+}
