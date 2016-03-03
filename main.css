@@ -1,3 +1,23 @@
 /*===============================================================================
 Main Styles
 ===============================================================================*/
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background: url("imgs/summer-mountain-lake-1.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+header > h1 {
+    margin: 0;
+    padding: 0;
+}
