@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: url("imgs/summer-mountain-lake-1.jpg");
+    background: url("imgs/6826941-lake.jpg");
     height: 100%;
     background-size: cover;
 }
@@ -20,9 +20,17 @@ header {
 header > h1 {
     margin: 0;
     padding: 0;
+    color: white;
+    text-align: center;
 }
 
 .title {
-    background-color: aqua;
+    background-color: #58D3F7;
     height: 250px;
+    margin: 0;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
 }
