@@ -1,4 +1,18 @@
 /*===============================================================================
+Font
+===============================================================================*/
+
+@font-face {
+    font-family: Robotolite;
+    src: url(roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Robototitle;
+    src: url(roboto/RobotoCondensed-Regular.ttf);
+}
+
+/*===============================================================================
 Main Styles
 ===============================================================================*/
 html {
@@ -12,22 +26,55 @@ body {
 }
 
 header {
-    background: url("imgs/6826941-lake.jpg");
+    background: url("imgs/6999869-sunset-beach-waves.jpg");
     height: 100%;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
 }
 
-header > h1 {
+header h1{
     margin: 0;
-    padding: 0;
+    padding: 5%;
     color: white;
+    font-family: Robototitle, sans-serif;
     text-align: center;
 }
 
-.title {
-    background-color: #58D3F7;
-    height: 250px;
+header p {
     margin: 0;
+    padding: 3%;
+    color: white;
+    font-size: 30px;
+    font-family: Robototitle, sans-serif;
+    text-align: center;
+}
+
+header p a {
+    margin: 0;
+    padding: 3%;
+    color: #81DAF5;
+    font-size: 30px;
+    font-family: Robototitle, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title {
+    background-color: #FE642E;
+    display: flex;
+    height: 200px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    color: white;
+    font-family: Robotolite, sans-serif;
+    display: flex;
 }
 
 .content {
