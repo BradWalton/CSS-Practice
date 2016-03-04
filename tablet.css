@@ -28,28 +28,40 @@ body {
 header {
     background: url("imgs/6999869-sunset-beach-waves.jpg");
     height: 100%;
+    margin: auto;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     font-size: 100px;
+    text-align: center;
 }
 
 header h1{
     margin: 0;
-    padding: 5%;
     color: white;
     font-family: Robototitle, sans-serif;
     text-align: center;
+    width: 100%;
+    display: block;
+    padding: 15% 0 0 0;
 }
 
-header p {
+.first {
     margin: 0;
-    padding: 3%;
     color: white;
     font-size: 30px;
     font-family: Robototitle, sans-serif;
     text-align: center;
+    display: none;
+}
+
+.titleshift {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: Robototitle, sans-serif;
+    text-align: center;
+    display: block;
+
 }
 
 header p a {

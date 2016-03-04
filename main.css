@@ -52,6 +52,10 @@ header p {
     text-align: center;
 }
 
+.titleshift {
+    display: none;
+}
+
 header p a {
     margin: 0;
     padding: 3%;
