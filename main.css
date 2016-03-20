@@ -53,13 +53,15 @@ header p {
 }
 
 .podbanner {
+    display: flex;
     height: 30%;
 }
 
 .podbanner img {
+    display: inline-block;
     height: 100%;
+    margin: auto;
     width: 25%;
-    padding: 0;
 }
 
 .titleshift {
