@@ -95,7 +95,7 @@ header p a {
        margin: auto;
 }
 
-.title ul li {
+.title ul li{
     color: white;
     display: inline-block;
     font-family: Robotolite, sans-serif;
@@ -105,10 +105,33 @@ header p a {
     text-decoration: none;
 }
 
+.title ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+
+.title ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .content {
     width: 70%;
     margin: auto;
     padding: 3%;
+}
+
+.content h1 {
+    color: black;
+    display: inline-block;
+    font-family: Robotolite, sans-serif;
+    padding: 0;
+}
+
+.content h3 a {
+    color: white;
+    padding: 0;
 }
 
 footer {
