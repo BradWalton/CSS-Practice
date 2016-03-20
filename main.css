@@ -27,7 +27,7 @@ body {
 
 header {
     background: url("imgs/6999869-sunset-beach-waves.jpg");
-    height: 70%;
+    height: 50%;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -52,12 +52,19 @@ header p {
     text-align: center;
 }
 
-#pod {
-    float: inherit;
+.podbanner {
+    height: 30%;
+}
+
+.podbanner img {
+    height: 100%;
+    width: 25%;
+    padding: 0;
 }
 
 .titleshift {
     display: none;
+    padding: 80%;
 }
 
 header p a {
@@ -72,7 +79,7 @@ header p a {
 .title {
     background-color: #FE642E;
     display: flex;
-    height: 30%;
+    height: 20%;
     margin: 0;
     justify-content: center;
     align-items: center;
