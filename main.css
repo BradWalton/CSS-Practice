@@ -129,9 +129,8 @@ header p a {
     padding: 0;
 }
 
-.content h3 a {
-    color: white;
-    padding: 0;
+iframe {
+    margin: auto;
 }
 
 footer {
