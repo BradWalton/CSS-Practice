@@ -80,17 +80,29 @@ header p a {
 
 .title {
     background-color: #FE642E;
-    display: flex;
+    display: inline-block;
     height: 20%;
-    margin: 0;
+    width: 100%;
+    margin: auto;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.title h1 {
+.title ul {
+       color: white;
+       font-family: Robotolite, sans-serif;
+       margin: auto;
+}
+
+.title ul li {
     color: white;
+    display: inline-block;
     font-family: Robotolite, sans-serif;
-    display: flex;
+    font-size: 25px;
+    padding: 5% 3% 5% 1%;
+    margin: auto;
+    text-decoration: none;
 }
 
 .content {
