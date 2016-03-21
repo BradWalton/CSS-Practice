@@ -116,6 +116,10 @@ header p a {
     color: black;
 }
 
+/*===============================================================================
+Content Styles
+===============================================================================*/
+
 .content {
     width: 70%;
     margin: auto;
@@ -129,8 +133,32 @@ header p a {
     padding: 0;
 }
 
+/* Video Styles */
+
 iframe {
     margin: auto;
+}
+
+.vids {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.why {
+    display: block;
+}
+
+.first {
+    width: 40%;
+    margin: auto;
+    padding: 0;
+}
+
+.second {
+    width: 40%;
+    margin: auto;
+    padding: 0;
 }
 
 footer {
@@ -142,7 +170,7 @@ footer {
     align-items: center;
 }
 
-footer h1 {
+footer h2 {
     color: white;
     font-family: Robotolite, sans-serif;
     display: flex;
